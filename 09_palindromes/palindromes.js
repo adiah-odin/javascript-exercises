@@ -4,6 +4,14 @@ const palindromes = function (string) {
 			.toLowerCase()
 			.split('')
 			.filter(character => /[a-z]/.test(character));
+	
+	// processedString = string.toLowerCase().replace(/[^a-z]/g, "");
+	// return (
+	// 	processedString
+	// 		.split("")
+	// 		.reverse()
+	// 		.join("") === processedString
+	// );
 
 	let length = characters.length;
 	let palindrome = true;
